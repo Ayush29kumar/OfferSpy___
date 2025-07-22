@@ -1,0 +1,69 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.code-container pre code {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.875rem;
+    line-height: 1.5;
+}
+
+.hljs {
+    background: #161B22 !important;
+    padding: 1rem;
+}
+
+.file-tree {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.file-tree ul {
+    list-style-type: none;
+    padding-left: 20px;
+    border-left: 1px solid #30363D;
+    margin-left: 9px;
+}
+
+.file-tree li {
+    position: relative;
+    padding: 4px 0 4px 25px;
+}
+
+.file-tree li::before {
+    content: '';
+    position: absolute;
+    top: 14px;
+    left: 0;
+    width: 15px;
+    height: 1px;
+    background: #30363D;
+}
+
+.file-tree .icon {
+    position: absolute;
+    left: 0;
+    top: 7px;
+}
+
+/* Prose overrides for README rendering */
+.prose h1, .prose h2, .prose h3 {
+    border-bottom: 1px solid #30363D;
+    padding-bottom: 0.5rem;
+}
+
+.prose code {
+    color: #FFA657;
+    background-color: rgba(135,131,120,0.15);
+    padding: .2em .4em;
+    border-radius: 6px;
+    font-size: 85%;
+}
+
+.prose pre code {
+    color: inherit;
+    background-color: transparent;
+    padding: 0;
+    border-radius: 0;
+    font-size: inherit;
+}

@@ -1,0 +1,72 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.code-container pre code {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.875rem;
+    line-height: 1.5;
+}
+
+/* Overriding default highlight.js background */
+.hljs {
+    background: #161B22 !important;
+    color: #C9D1D9;
+}
+
+/* Syntax Highlighting Colors - GitHub Dark Dimmed Theme */
+.hljs-comment,
+.hljs-quote {
+  color: #8B949E;
+}
+
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+  color: #FFA657;
+}
+
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+  color: #79C0FF;
+}
+
+.hljs-attribute {
+  color: #79C0FF; 
+}
+
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+  color: #A5D6FF;
+}
+
+.hljs-title,
+.hljs-section {
+  color: #D2A8FF;
+}
+
+.hljs-keyword,
+.hljs-selector-tag {
+  color: #FF7B72;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
